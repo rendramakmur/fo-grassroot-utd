@@ -1,4 +1,4 @@
-import Banner from '@/components/Home/Banner'
+import Banner from '@/components/Banner'
 import Meta from '@/components/Meta'
 
 export default function Home() {
