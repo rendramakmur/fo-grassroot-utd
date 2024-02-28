@@ -1,5 +1,6 @@
 import Meta from "@/components/Meta";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Login() {
   return (
@@ -7,10 +8,10 @@ export default function Login() {
       <Meta title="Login" description="Login to Grassroot United FC" />
       <div className="">
         <div className="flex flex-col items-center px-6 py-8 mx-auto h-screen">
-            <a href="/" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 py-10">
+            <Link href="/" className="flex items-center mb-6 text-2xl font-semibold text-gray-900 py-10">
               <p>Logo</p>
               {/* <Image src="/logo-img.png" width={100} height={100} alt="grassroot united fc logo" priority="true"></Image> */}
-            </a>
+            </Link>
             <div className="px-10 space-y-4 w-full">
                 <h1 className="text-2xl font-black leading-tight tracking-tight text-gray-900">
                     Sign in
@@ -29,7 +30,7 @@ export default function Login() {
                     </div> */}
                     <button type="submit" className="w-full text-white bg-black hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Sign in</button>
                     <p className="text-sm font-light text-gray-500">
-                        Don’t have an account yet? <a href="/register" className="font-medium text-primary-600 hover:underline">Register</a>
+                        Don’t have an account yet? <Link href="/register" className="font-medium text-primary-600 hover:underline">Register</Link>
                     </p>
                 </form>
             </div>

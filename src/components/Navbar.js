@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import { useState } from "react"
 
 export default function Navbar() {
@@ -37,9 +38,9 @@ export default function Navbar() {
             {/* Dropdown Menu */}
             <div className={`${isOpen ? 'block' : 'hidden'}`}>
                 <ul className="text-gray-800">
-                    <li className="py-2 text-center"><a href="/" className="block px-4 py-2">Home</a></li>
-                    <li className="py-2 text-center"><a href="/login" className="block px-4 py-2">Sign in</a></li>
-                    <li className="py-2 text-center"><a href="/register" className="block px-4 py-2">Register</a></li>
+                    <li className="py-2 text-center"><Link href="/" className="block px-4 py-2">Home</Link></li>
+                    <li className="py-2 text-center"><Link href="/login" className="block px-4 py-2">Sign in</Link></li>
+                    <li className="py-2 text-center"><Link href="/register" className="block px-4 py-2">Register</Link></li>
                 </ul>
             </div>
         </div>
