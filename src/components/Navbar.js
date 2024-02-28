@@ -14,9 +14,9 @@ export default function Navbar() {
         <div className="container mx-auto px-4">
             <div className="flex items-center justify-between py-4">
                 {/* Logo */}
-                <a href="/" className="flex items-center space-x-2">
+                <Link href="/" className="flex items-center space-x-2">
                   <Image src="/logo-navbar.svg" width={50} height={50} alt="grassroot united fc logo" priority="true"></Image>
-                </a>
+                </Link>
 
                 {/* Burger Icon */}
                 <div className="block">
