@@ -14,7 +14,7 @@ module.exports = {
         'xxxs': '.40rem',
         'xxs': '.50rem',
         'xs': '.60rem',
-        'xsm': '.65rem',
+        'xsm': '.68rem',
       },
     },
   },

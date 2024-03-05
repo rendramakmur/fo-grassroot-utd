@@ -201,7 +201,7 @@ export default function Register({ occupation, gender }) {
         isLoading ?
         <LoadingPage />
         :
-        <div className="py-3">
+        <div className="pb-10 pt-5">
           <div className="flex flex-col items-center px-6 py-8 mx-auto h-fit">
             <div className="p-6 space-y-4">
                 <h1 className="text-2xl font-black leading-tight tracking-tight text-gray-900">
@@ -285,7 +285,7 @@ export default function Register({ occupation, gender }) {
                         </optgroup>
                       </select>
                     </div>
-                    <div className="pt-2">
+                    <div className="pt-5">
                       <button type="submit" className="w-full text-white bg-black hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Register</button>
                     </div>
                 </form>
